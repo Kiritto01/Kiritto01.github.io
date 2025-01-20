@@ -1,0 +1,1304 @@
+{
+    "questions": [
+      {
+        "question": "Jakie są trzy podstawowe zasady programowania obiektowego w Javie?",
+        "options": {
+          "a": "Dynamiczność, polimorfizm, niezależność.",
+          "b": "Dziedziczenie, hermetyzacja, rozproszoność.",
+          "c": "Hermetyzacja, polimorfizm, dziedziczenie.",
+          "d": "Hermetyzacja, niezawodność, niezależność."
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Czym charakteryzuje się hermetyzacja w Javie?",
+        "options": {
+          "a": "Możliwością posługiwania się pewnym zbiorem akcji za pomocą jednego interfejsu.",
+          "b": "Umożliwieniem otrzymywania pewnych właściwości obiektu przez inny obiekt.",
+          "c": "Zapobieganiem przypadkowym interferencjom z zewnętrznym kodem oraz niepoprawnemu użyciu danych (tzw. czarna skrzynka).",
+          "d": "Ograniczeniem działania aplikacji do środowiska wykonywania Javy."
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Czym charakteryzuje się polimorfizm w Javie?",
+        "options": {
+          "a": "Możliwością posługiwania się pewnym zbiorem akcji za pomocą jednego interfejsu.",
+          "b": "Umożliwieniem otrzymywania pewnych właściwości obiektu przez inny obiekt.",
+          "c": "Zapobieganiem przypadkowym interferencjom z zewnętrznym kodem oraz niepoprawnemu użyciu danych (tzw. czarna skrzynka).",
+          "d": "Ograniczeniem działania aplikacji do środowiska wykonywania Javy."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Czym charakteryzuje się proces dziedziczenia w Javie?",
+        "options": {
+          "a": "Możliwością posługiwania się pewnym zbiorem akcji za pomocą jednego interfejsu.",
+          "b": "Umożliwieniem otrzymywania pewnych właściwości obiektu przez inny obiekt.",
+          "c": "Zapobieganiem przypadkowym interferencjom z zewnętrznym kodem oraz niepoprawnemu użyciu danych (tzw. czarna skrzynka).",
+          "d": "Ograniczeniem działania aplikacji do środowiska wykonywania Javy."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Czym jest maszyna wirtualna Javy (JVM)?",
+        "options": {
+          "a": "Środowiskiem zapewniającym przenośność Javy poprzez wykonywanie programów skompilowanych do postaci kodu bajtowego Javy.",
+          "b": "Środowiskiem uruchamiającym aplikacje napisane w Javie.",
+          "c": "Narzędziem dla programistów pozwalającym na tworzenie programów.",
+          "d": "Narzędziem odpowiadającym za automatyczne zarządzanie pamięcią i jej zwalnianie w przypadku nieużywania zasobu."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Czym jest Java Runtime Environment (JRE)?",
+        "options": {
+          "a": "Środowiskiem zapewniającym przenośność Javy poprzez wykonywanie programów skompilowanych do postaci kodu bajtowego Javy.",
+          "b": "Środowiskiem uruchamiającym aplikacje napisane w Javie.",
+          "c": "Narzędziem dla programistów pozwalającym na tworzenie programów.",
+          "d": "Narzędziem odpowiadającym za automatyczne zarządzanie pamięcią i jej zwalnianie w przypadku nieużywania zasobu."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Czym jest Java Development Kit (JDK)?",
+        "options": {
+          "a": "Środowiskiem zapewniającym przenośność Javy poprzez wykonywanie programów skompilowanych do postaci kodu bajtowego Javy.",
+          "b": "Środowiskiem uruchamiającym aplikacje napisane w Javie.",
+          "c": "Narzędziem dla programistów pozwalającym na tworzenie programów.",
+          "d": "Narzędziem odpowiadającym za automatyczne zarządzanie pamięcią i jej zwalnianie w przypadku nieużywania zasobu."
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Czym jest Garbage Collector?",
+        "options": {
+          "a": "Środowiskiem zapewniającym przenośność Javy poprzez wykonywanie programów skompilowanych do postaci kodu bajtowego Javy.",
+          "b": "Środowiskiem uruchamiającym aplikacje napisane w Javie.",
+          "c": "Narzędziem dla programistów pozwalającym na tworzenie programów.",
+          "d": "Narzędziem odpowiadającym za automatyczne zarządzanie pamięcią i jej zwalnianie w przypadku nieużywania zasobu."
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Czym jest kompilator JIT (just-in-time)?",
+        "options": {
+          "a": "Narzędziem odpowiadającym za automatyczne zarządzanie pamięcią i jej zwalnianie w przypadku nieużywania zasobu.",
+          "b": "Środowiskiem uruchamiającym aplikacje napisane w Javie.",
+          "c": "Środowiskiem zapewniającym przenośność Javy poprzez wykonywanie programów skompilowanych do postaci kodu bajtowego Javy.",
+          "d": "Częścią maszyny wirtualnej Javy umożliwiającą szybszą kompilację wybranych fragmentów kodu."
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Dlaczego JAVA jest określana jako język przenośny?",
+        "options": {
+          "a": "Ponieważ programy Java mogą być wykonywane w dowolnych środowiskach, jeśli tylko istnieje w nich maszyna wirtualna Javy.",
+          "b": "Ponieważ programy Java można pisać na urządzenie które nosimy.",
+          "c": "Ponieważ programy Java mogą być łatwo przepisane na C#.",
+          "d": "Ponieważ programy Java „przenosimy” z pliku .java do pliku .class."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Jakie rozszerzenie posiadają pliki źródłowe programów napisanych w języku Java?",
+        "options": {
+          "a": ".java",
+          "b": ".class",
+          "c": ".jar",
+          "d": ".exe"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Po skompilowaniu pliku źródłowego kod bajtowy zostaje umieszczony w pliku o jakim rozszerzeniu?",
+        "options": {
+          "a": ".jar",
+          "b": ".exe",
+          "c": ".class",
+          "d": ".java"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Od wywołania jakiej metody zaczyna się działanie wszystkich programów w języku Java?",
+        "options": {
+          "a": "println()",
+          "b": "run()",
+          "c": "start()",
+          "d": "main()"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "W języku Java wyróżniamy dwa podstawowe typy danych, jakie?",
+        "options": {
+          "a": "Obiektowe i nie obiektowe.",
+          "b": "Podstawowe i elementarne.",
+          "c": "Podstawowe i prymitywne.",
+          "d": "Proste i elementarne."
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Jaki typ całkowity w języku Java składa się z 32 bitów reprezentacji?",
+        "options": {
+          "a": "byte",
+          "b": "short",
+          "c": "int",
+          "d": "long"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Jaki typ całkowity w języku Java składa się z 64 bitów reprezentacji?",
+        "options": {
+          "a": "byte",
+          "b": "short",
+          "c": "int",
+          "d": "long"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Jaki typ zmiennoprzecinkowy w języku Java składa się z 32 bitów reprezentacji?",
+        "options": {
+          "a": "float",
+          "b": "double",
+          "c": "char",
+          "d": "byte"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Jaki typ zmiennoprzecinkowy w języku Java składa się z 64 bitów reprezentacji?",
+        "options": {
+          "a": "float",
+          "b": "double",
+          "c": "char",
+          "d": "byte"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Jakie działanie ma sekwencja znaków: \\n?",
+        "options": {
+          "a": "Powrót karetki.",
+          "b": "Nowy wiersz.",
+          "c": "Umieszcza tabulator.",
+          "d": "Realizuje cofanie."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Jakie działanie ma operator arytmetyczny: %?",
+        "options": {
+          "a": "Obliczenie wartości procentowej.",
+          "b": "Dzielenie.",
+          "c": "Wyliczenie reszty z odejmowania.",
+          "d": "Modulo."
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Jakie znaczenie ma operator logiczny: &?",
+        "options": {
+          "a": "AND (iloczyn logiczny).",
+          "b": "OR (suma logiczna).",
+          "c": "XOR (różnica symetryczna).",
+          "d": "NOT (negacja)."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Przypisanie wartości jednego typu prostego do drugiego odbywa się automatycznie kiedy:",
+        "options": {
+          "a": "Typy są zgodne.",
+          "b": "Zakres typu docelowego jest większy.",
+          "c": "Typy są zgodne i zakres typu docelowego jest mniejszy.",
+          "d": "Typy są zgodne i zakres typu docelowego jest większy."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "W jakim kodzie są zapisywane znaki (char) w Javie?",
+        "options": {
+          "a": "Unicode",
+          "b": "ASCII",
+          "c": "ISO 8859",
+          "d": "Windows - 1250"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Kiedy stosujemy rzutowanie?",
+        "options": {
+          "a": "Podczas konwersji typów, które nie są zgodne lub gdy zachodzi konwersja zawężająca.",
+          "b": "Podczas inkrementacji.",
+          "c": "Podczas przypisania automatycznego.",
+          "d": "Podczas automatycznego opakowywania i wypakowywania."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Jakiego typu może być wyrażenie sterujące instrukcją switch?",
+        "options": {
+          "a": "byte, short, int, double, char, enum, String.",
+          "b": "int, enum, String.",
+          "c": "byte, short, int, char, enum, String.",
+          "d": "byte, short, int, char, enum."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Przykładem jakiej pętli jest ten kod: for(;;) { i++; }",
+        "options": {
+          "a": "Pętli nieskończonej.",
+          "b": "Pętli foreach.",
+          "c": "Pętli bez ciała.",
+          "d": "Pętli rozszerzonej."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Jakie jest zastosowanie instrukcji continue w pętlach?",
+        "options": {
+          "a": "Natychmiastowe przerwanie pętli.",
+          "b": "Jako formy goto.",
+          "c": "Zapewnienie iteracji po wszystkich elementach kolekcji.",
+          "d": "Wymuszenie wcześniejszej iteracji pętli."
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Jak działa instrukcja break z etykietą?",
+        "options": {
+          "a": "Powoduje natychmiastowe przerwanie pętli.",
+          "b": "Drukuje na konsoli jakąś wiadomość.",
+          "c": "Powoduje przekazanie sterowania na koniec bloku oznaczonego etykietą.",
+          "d": "Powoduje przekazanie sterowania w dowolne miejsce kodu."
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Czym jest referencja obiektu?",
+        "options": {
+          "a": "Definicją obiektu.",
+          "b": "Wartością obiektu.",
+          "c": "Adresem obiektu utworzonego w pamięci.",
+          "d": "Kopię obiektu."
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Co oznacza określenie void przy deklaracji metody?",
+        "options": {
+          "a": "Metodę można wywołać bez utworzenia obiektu jej klasy.",
+          "b": "Metoda nie ma żadnych parametrów.",
+          "c": "Metoda nic nie zwraca.",
+          "d": "Metoda zwraca dowolny typ."
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Co oznacza określenie static przy deklaracji metody?",
+        "options": {
+          "a": "Metodę można wywołać bez utworzenia obiektu jej klasy.",
+          "b": "Metoda nic nie zwraca.",
+          "c": "Metoda nie może być zmieniona w klasie pochodnej.",
+          "d": "Metoda nie ma ciała."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Co oznacza określenie final przy deklaracji metody?",
+        "options": {
+          "a": "Metodę można wywołać bez utworzenia obiektu jej klasy.",
+          "b": "Metoda nic nie zwraca.",
+          "c": "Metoda nie może być zmieniona w klasie pochodnej.",
+          "d": "Metoda nie ma ciała."
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Jakie jest zadanie konstruktora?",
+        "options": {
+          "a": "Inicjalizacja obiektu podczas jego tworzenia.",
+          "b": "Deklaracja zmiennych.",
+          "c": "Deklaracja metod.",
+          "d": "Odzyskanie pamięci."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "W jaki sposób metoda musi kończyć swoje działanie, jeśli zwraca wartość?",
+        "options": {
+          "a": "Instrukcją wypisującą tę wartość na konsolę.",
+          "b": "Instrukcją return.",
+          "c": "Instrukcją break.",
+          "d": "Instrukcją zapisującą zwracaną wartość do jakiejś zmiennej."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Jeśli nie utworzymy konstruktora danej klasy to…?",
+        "options": {
+          "a": "i tak będziemy mogli skorzystać z domyślnego.",
+          "b": "klasa będzie abstrakcyjna.",
+          "c": "będziemy mieli do czynienia z interfejsem.",
+          "d": "kompilator zgłosi nam błąd."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Od jakiej wartości rozpoczynają się indeksy tablic w Javie?",
+        "options": {
+          "a": "Od 1 (jeden).",
+          "b": "Od 0 (zera).",
+          "c": "Od wartości którą sami zadeklarujemy.",
+          "d": "Od zera przy tablicach jednoelementowych i od zera i jeden przy dwuelementowych."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Czy można zmienić rozmiar tablicy w Javie?",
+        "options": {
+          "a": "Tak, używając metody .add",
+          "b": "Tak, odwołując się do wcześniejszej deklaracji tablicy.",
+          "c": "Nie, tablice w Javie są niezmienne.",
+          "d": "Tak, używając metody .size"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Jaki jest domyślny modyfikator dostępu w Javie?",
+        "options": {
+          "a": "public.",
+          "b": "private.",
+          "c": "protected.",
+          "d": "tzw. pakietowy."
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Na czym polega przeciążanie metod?",
+        "options": {
+          "a": "Na deklaracji metod o tej samej nazwie w jednej klasie ale z różnymi parametrami.",
+          "b": "Na własnej implementacji metody z klasy bazowej.",
+          "c": "Na implementacji metody która nigdy nie skończy swojego działania.",
+          "d": "Na implementacji metody która w swoim ciele wywołuje tylko inne metody."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Na czym polega przesłanianie metod?",
+        "options": {
+          "a": "Na deklaracji metod o tej samej nazwie w jednej klasie ale z różnymi parametrami.",
+          "b": "Na własnej implementacji metody z klasy bazowej.",
+          "c": "Na implementacji metody w metodzie.",
+          "d": "Na zakomentowaniu metody."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Czym się różni operator == od metody equals()?",
+        "options": {
+          "a": "Niczym, jeden i drugi w ten sam sposób porównuje obiekty.",
+          "b": "Metoda equals() porównuje referencje, a operator == porównuje wartość.",
+          "c": "Metoda equals() porównuje wartość, a operator == referencje.",
+          "d": "Żadna z powyższych odpowiedzi nie jest prawidłowa."
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Do czego służy adnotacja @Override?",
+        "options": {
+          "a": "Do niczego szczególnego, jest informacją dla nas.",
+          "b": "Informuje o przeciążeniu metody.",
+          "c": "Wskazuje wykorzystanie przestarzałej/niewspieranej metody.",
+          "d": "Jest informacją dla kompilatora, że metoda przesłania inną metodę."
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Począwszy od JDK5 możemy implementować metody ze zmienną liczbą argumentów, w jaki sposób to robimy?",
+        "options": {
+          "a": "Listę argumentów o zmiennej długości oznaczamy za pomocą trzech kropek (…).",
+          "b": "Listę argumentów o zmiennej długości oznaczamy za pomocą trzech przecinków (,,,).",
+          "c": "W argumentach umieszczamy tablicę.",
+          "d": "Tworzymy wiele przeciążonych metod z różnymi liczbami argumentów."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Jakiego słowa kluczowego musimy użyć żebyśmy mogli dziedziczyć po klasie bazowej?",
+        "options": {
+          "a": "implements",
+          "b": "extends",
+          "c": "throws",
+          "d": "import"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Po ilu klasach może dziedziczyć klasa pochodna w Javie?",
+        "options": {
+          "a": "Po jednej.",
+          "b": "Po dwóch.",
+          "c": "Po trzech.",
+          "d": "Po dowolnej liczbie."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Do czego służy słowo kluczowe super w Javie?",
+        "options": {
+          "a": "Do określenia, że mamy do czynienia z klasą bazową dla wszystkich innych klas.",
+          "b": "Pozwala odwoływać się do metod i konstruktorów klasy bazowej.",
+          "c": "Pozwala tworzyć metody i zmienne których nie można zmienić.",
+          "d": "Do określenia, że mamy do czynienia ze szczególnie ważnym kodem w naszym programie."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Czym charakteryzuje się metoda abstrakcyjna?",
+        "options": {
+          "a": "Jest oznaczona modyfikatorem abstract, nie posiada ciała, klasa pochodna musi ją przesłonić, może ale nie musi mieć listy parametrów.",
+          "b": "Jest oznaczona modyfikatorem abstract, nie posiada ciała, klasa pochodna musi ją przesłonić, nie może przyjmować parametrów.",
+          "c": "Jest oznaczona modyfikatorem abstract, nie posiada ciała, klasa pochodna musi ją przesłonić, może ale nie musi mieć listy parametrów, nie może określać typu zwracanego.",
+          "d": "Jest oznaczona modyfikatorem abstract, nie posiada ciała, klasa pochodna musi ją przesłonić, nie może przyjmować parametrów, nie może określać typu zwracanego."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Czym charakteryzuje się klasa abstrakcyjna?",
+        "options": {
+          "a": "Jest oznaczona modyfikatorem abstract, nie można utworzyć obiektu takiej klasy, może ale nie musi zawierać metodę abstrakcyjną.",
+          "b": "Jest oznaczona modyfikatorem abstract, nie można utworzyć obiektu takiej klasy, musi zawierać metodę abstrakcyjną.",
+          "c": "Jest oznaczona modyfikatorem abstract, nie można utworzyć obiektu takiej klasy, musi zawierać metodę abstrakcyjną, nie można w niej zdefiniować innych metod niż abstrakcyjne.",
+          "d": "Jest oznaczona modyfikatorem abstract, nie można utworzyć obiektu takiej klasy, może ale nie musi zawierać metodę abstrakcyjną, nie można w niej zdefiniować innych metod niż abstrakcyjne."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Co musi zrobić „zwykła” klasa która dziedziczy po klasie abstrakcyjnej?",
+        "options": {
+          "a": "Nic konkretnego.",
+          "b": "Musi dostarczyć implementacji wszystkich metod abstrakcyjnej klasy bazowej.",
+          "c": "Musi dostarczyć implementacji abstrakcyjnych metod abstrakcyjnej klasy bazowej.",
+          "d": "Musi również być abstrakcyjna."
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Co oznacza słowa final przed deklaracją klasy?",
+        "options": {
+          "a": "Informuje, że żadna klasa nie może dziedziczyć po tej klasie.",
+          "b": "Informuje, że żadna klasa nie może dziedziczyć po tej klasie, a wszystkie metody zadeklarowane w tej klasie domyślnie też są final.",
+          "c": "Informuje, że wszystkie metody zadeklarowane w tej klasie domyślnie są final.",
+          "d": "Informuje innych programistów, że jesteśmy zadowoleni z kształtu tej klasy i jesteśmy gotowi dodać ją do repozytorium."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Co się wydarzy jeśli zmienną składową poprzedzi my słowem kluczowym final?",
+        "options": {
+          "a": "Nie możemy nadać jej wartości.",
+          "b": "Wartość tej zmiennej nie może zostać zmieniona podczas działania programu.",
+          "c": "Nie możemy jej użyć w innej metodzie niż takiej z oznaczeniem final.",
+          "d": "Nazwę tej zmiennej będziemy musieli napisać dużymi literami, bo inaczej kompilator zwróci błąd."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Po jakiej klasie dziedziczą wszystkie inne klasy w Javie?",
+        "options": {
+          "a": "String",
+          "b": "Object",
+          "c": "Throwable",
+          "d": "Number"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Czy klasa bazowa ma dostęp do składowych klasy pochodnej? A na odwrót?",
+        "options": {
+          "a": "Tak, klasa bazowa dysponuje wiedzą na temat swoich klas pochodnych. Tak, klasa pochodna ma dostęp do wszystkich składowych klasy bazowej.",
+          "b": "Nie, klasa bazowa nie dysponuje żadną wiedzą na temat swoich klas pochodnych. Tak, klasa pochodna ma dostęp do wszystkich składowych klasy bazowej.",
+          "c": "Nie, klasa bazowa nie dysponuje żadną wiedzą na temat swoich klas pochodnych. Tak, klasa pochodna ma dostęp do wszystkich składowych klasy bazowej – oprócz tych zadeklarowanych jako private.",
+          "d": "Nie, klasa bazowa nie dysponuje żadną wiedzą na temat swoich klas pochodnych. Nie, klasa pochodna nie ma dostępu do składowych klasy bazowej."
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "W jaki sposób możemy uniemożliwić klasie pochodnej dostęp do składowej klasy bazowej?",
+        "options": {
+          "a": "Deklarując składową klasy bazowej jako static.",
+          "b": "Deklarując składową klasy bazowej jako final.",
+          "c": "Deklarując składową klasy bazowej bez modyfikatora dostępu.",
+          "d": "Deklarując składową klasy bazowej jako private."
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Wskaż właściwą kolejność modyfikatorów dostępu od tych najmniej dostępnych do tych najszerzej dostępnych.",
+        "options": {
+          "a": "private, protected, domyślna (package), public.",
+          "b": "private, domyślna (package), protected, public.",
+          "c": "private, protected, public, domyślna (package).",
+          "d": "public, domyślna (package), protected, private."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Który z pakietów jest automatycznie importowany do każdego programu napisanego w języku Java?",
+        "options": {
+          "a": "java.io",
+          "b": "java.net",
+          "c": "java.lang",
+          "d": "java.util"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Z ilu interfejsów maksymalnie może korzystać pojedyncza klasa?",
+        "options": {
+          "a": "Z jednego.",
+          "b": "Z dwóch.",
+          "c": "Z trzech.",
+          "d": "Z dowolnej liczby."
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Jakiego słowa kluczowego musimy użyć, żebyśmy mogli skorzystać w klasie z interfejsu?",
+        "options": {
+          "a": "implements",
+          "b": "extends",
+          "c": "throws",
+          "d": "import"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Zmienne w interfejsach są domyślnie zadeklarowane jako?",
+        "options": {
+          "a": "private, static, final",
+          "b": "public, static, final",
+          "c": "public, static",
+          "d": "private, static"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Jakiego słowa kluczowego musimy użyć, żebyśmy mogli dziedziczyć w interfejsie po innym interfejsie?",
+        "options": {
+          "a": "implements",
+          "b": "extends",
+          "c": "throws",
+          "d": "import"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Od JDK8 możemy definiować metody statyczne w interfejsach, jak jej wywołujemy?",
+        "options": {
+          "a": "Podając nazwę metody.",
+          "b": "Podając nazwę interfejsu, kropkę oraz nazwę metody.",
+          "c": "Poprzez utworzenie instancji interfejsu i wywołanie na niej nazwy metody.",
+          "d": "Nie można wywołać takiej metody."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Od JDK8 możemy definiować metody domyślne w interfejsach, jakim słowem kluczowym musimy poprzedzić ich nazwę?",
+        "options": {
+          "a": "final",
+          "b": "requires",
+          "c": "super",
+          "d": "default"
+        },
+        " correct_answer": "d"
+      },
+      {
+        "question": "Po jakiej klasie dziedziczą wszystkie inne klasy wyjątków w Javie?",
+        "options": {
+          "a": "Exception",
+          "b": "Error",
+          "c": "Throwable",
+          "d": "IOException"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Jakie dwie klasy dziedziczą bezpośrednio po klasie Throwable?",
+        "options": {
+          "a": "Exception i RuntimeException",
+          "b": "Error i Exception",
+          "c": "Exception i VirtualMachineError",
+          "d": "Exception i IOException"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Wyjątki w Javie możemy podzielić na te które musimy obsłużyć i na te których nie musimy. Którego z poniższych wyjątków nie musimy obsługiwać?",
+        "options": {
+          "a": "IOException",
+          "b": "ClassNotFoundException",
+          "c": "StackOverFlowError",
+          "d": "InterruptedException"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Czy któryś z poniższych bloków obsługi wyjątków jest obowiązkowy?",
+        "options": {
+          "a": "catch",
+          "b": "finally",
+          "c": "try",
+          "d": "nie ma takiego, wszystkie są opcjonalne"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Ile bloków catch możemy użyć z jedną instrukcją try?",
+        "options": {
+          "a": "Jeden.",
+          "b": "Dwa.",
+          "c": "Trzy.",
+          "d": "Nieskończenie wiele."
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "W jakim bloku umieścimy kod który chcemy żeby się wykonał niezależnie od tego czy wyjątek zostanie wyrzucony czy nie?",
+        "options": {
+          "a": "catch",
+          "b": "finally",
+          "c": "final",
+          "d": "throw"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Począwszy od JDK7 jedna klauzula catch może przechwycić wiele wyjątków, aby to zrobić wyposażamy ją w listę wyjątków rozdzielonych za pomocą jakiego operatora?",
+        "options": {
+          "a": "AND (iloczyn logiczny).",
+          "b": "OR (suma logiczna).",
+          "c": "XOR (różnica symetryczna).",
+          "d": "NOT (negacja)."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Gdy chcemy oznaczyć że jakaś metoda może wygenerować wyjątek ale go nie obsługuje powinniśmy dodać do jej deklaracji klauzulę:",
+        "options": {
+          "a": "throw",
+          "b": "extends",
+          "c": "throws",
+          "d": "try"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Jaka jest różnica pomiędzy throw a throws?",
+        "options": {
+          "a": "throw używamy w sygnaturze metody by poinformować że może wygenerować wyjątek, a throws używamy w ciele metody by wygenerować wyjątek.",
+          "b": "throw używamy w ciele metody by wygenerować wyjątek, a throws w sygnaturze metody by poinformować że może wygenerować wyjątek.",
+          "c": "działanie jest takie samo ale throw dotyczy pojedynczego wyjątku a throws wielu.",
+          "d": "żadna z powyższych odpowiedzi nie jest prawidłowa."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Java zapewnia możliwość tworzenia własnych wyjątków, w jaki sposób możemy to zrobić?",
+        "options": {
+          "a": "Definiując klasę dziedziczącą po klasie Exception.",
+          "b": "Definiując klasę dziedziczącą po klasie Error.",
+          "c": "Definiując klasę dziedziczącą po klasie AssertionError.",
+          "d": "Definiując klasę dziedziczącą po klasie InternalError."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Czy kod pisany przez nas powinien obsługiwać wyjątki typu Error?",
+        "options": {
+          "a": "Tak.",
+          "b": "Nie.",
+          "c": "Nie, oprócz tych zdefiniowanych w klasie VirtualMachineError.",
+          "d": "Nie, oprócz tych zdefiniowanych w klasie OutOfMemoryError."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Jaki wyjątek zostanie wyrzucony jeśli przekroczymy zakres tablicy?",
+        "options": {
+          "a": "ArithmeticException.",
+          "b": "ArrayStoreException.",
+          "c": "IllegalArgumentException.",
+          "d": "ArrayIndexOutOfBoundsException."
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Jaki wyjątek zostanie wyrzucony jeśli spróbujemy przypisać elementowi tablicy wartość lub obiekt niezgodnego typu?",
+        "options": {
+          "a": "ArithmeticException.",
+          "b": "ArrayStoreException.",
+          "c": "IllegalArgumentException.",
+          "d": "ArrayIndexOutOfBoundsException."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "W języku Java są zdefiniowane dwa typy strumieni wejścia - wyjścia ich nazwy to?",
+        "options": {
+          "a": "bajtowe i bitowe.",
+          "b": "bajtowe i znakowe.",
+          "c": "bitowe i znakowe.",
+          "d": "charowe i Stringowe."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Do wersji JDK7 musieliśmy samemu zamknąć zasób żeby uchronić się przed wyciekami, w jaki sposób najlepiej to zrobić?",
+        "options": {
+          "a": "Poprzez wywołanie metody close() w bloku finally.",
+          "b": "Poprzez wywołanie metody reset() w bloku finally.",
+          "c": "Poprzez wywołanie metody available() w bloku finally.",
+          "d": "Poprzez wywołanie metody flush() w bloku finally."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Od JDK7 wprowadzona została procedura automatycznego zarządzania zasobami, której właściwe użycie chroni programistę przez wyciekami pamięci bez konieczności wywoływania jawnie metody odpowiadającej za zamknięcie zasobu. W jaki sposób używamy procedury automatycznego zarządzania zasobami?",
+        "options": {
+          "a": "Modyfikując blok catch o nawiasy okrągłe i specyfikacje zasobu do automatycznego zamknięcia.",
+          "b": "Modyfikując blok finally o nawiasy okrągłe i specyfikacje zasobu do automatycznego zamknięcia.",
+          "c": "Modyfikując blok try o nawiasy okrągłe i specyfikacje zasobu do automatycznego zamknięcia.",
+          "d": "Modyfikując blok try o nawiasy kwadratowe i specyfikacje zasobu do automatycznego zamknięcia."
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Jaką wartość zwraca metoda read() klasy InputStream, gdy zostanie podjęta próba odczytu danych po dotarciu do końca strumienia?",
+        "options": {
+          "a": "1.",
+          "b": "0.",
+          "c": "-1.",
+          "d": "null."
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Jakim typem strumienia jest System.out?",
+        "options": {
+          "a": "ObjectOutputStream.",
+          "b": "FileOutputStream.",
+          "c": "InputStream.",
+          "d": "OutputStream."
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Java umożliwia kilka sposobów tworzenia wątków, które dwa z poniższych na to pozwalają?",
+        "options": {
+          "a": "Implementacja interfejsu Run lub utworzenie klasy pochodnej po klasie Thread.",
+          "b": "Implementacja interfejsu Runnable lub utworzenie klasy pochodnej po klasie Object.",
+          "c": "Implementacja interfejsu Run lub utworzenie klasy pochodnej po klas",
+          "d": "Implementacja interfejsu Runnable lub utworzenie klasy pochodnej po klasie Thread."
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Interfejs Runnable posiada jedną metodę którą musimy zaimplementować i jest ona punktem wejścia wątku, jaka to metoda?",
+        "options": {
+          "a": "start()",
+          "b": "isAlive()",
+          "c": "run()",
+          "d": "join()"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Implementacja jakich dwóch metod z poniższych pozwoli nam ustalić czy wątek zakończył swoje działanie?",
+        "options": {
+          "a": "isAlive() lub join()",
+          "b": "isAlive() lub run()",
+          "c": "join() lub run()",
+          "d": "join() lub getPriority()"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "W jaki sposób możemy zapewnić synchronizację dostępu do współdzielonego zasobu?",
+        "options": {
+          "a": "używając słowa kluczowego assert",
+          "b": "używając słowa kluczowego final",
+          "c": "używając słowa kluczowego synchronized",
+          "d": "używając słowa kluczowego transient"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Czym jest deadlock?",
+        "options": {
+          "a": "Niezsynchronizowanym dostępem do tego samego zasobu.",
+          "b": "Sytuacją kiedy dwa wątki czekają na siebie nawzajem, więc żaden nie może się zakończyć.",
+          "c": "Sytuacją kiedy dany wątek nie jest w stanie zakończyć działania, ponieważ nie ma dostępu do procesora lub innego zasobu.",
+          "d": "Sytuacją kiedy dwa wątki zatrzymują wykonywanie kodu aby dać szansę innym wątkom na wykonanie się."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Metod wait() i notify() używamy do?",
+        "options": {
+          "a": "Komunikacji międzywątkowej.",
+          "b": "Usypiania wątków.",
+          "c": "Tworzenia wątków.",
+          "d": "Ustalania czy dany wątek zakończył swoje działanie."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Co zwraca metoda isAlive()?",
+        "options": {
+          "a": "Zwraca 1, jeśli wątek nadal działa, lub wartość 0, gdy wątek zakończył działanie.",
+          "b": "Zwraca true, jeśli wątek nadal działa, lub wartość false, gdy wątek zakończył działanie.",
+          "c": "Zwraca Yes, jeśli wątek nadal działa, lub wartość No, gdy wątek zakończył działanie.",
+          "d": "Zwraca true, jeśli wątek nadal działa, lub wartość null, gdy wątek zakończył działanie."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Jaka jest różnica pomiędzy metodą sleep() a metodą wait()?",
+        "options": {
+          "a": "Metoda wait() zatrzymuje działanie wątku na jakiś czas, a sleep() wstrzymuje działanie na maksymalnie jakiś czas, lub do wywołania metody notify().",
+          "b": "Metoda wait() wstrzymuje działanie na maksymalnie jakiś czas, lub do wywołania metody notify(), a sleep() zatrzymuje działanie wątku na jakiś czas.",
+          "c": "wait() czeka na kliknięcie przez użytkownika w dowolny klawisz, a sleep() czeka tylko jakiś czas.",
+          "d": "żadna z powyższych odpowiedzi nie jest prawidłowa."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Po jakiej klasie bezpośrednio i automatycznie dziedziczą typy wyliczeniowe?",
+        "options": {
+          "a": "Object",
+          "b": "Throwable",
+          "c": "Enum",
+          "d": "Character"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Aby utworzyć klasę typów wyliczeniowych słowo class musimy zastąpić słowem…?",
+        "options": {
+          "a": "super",
+          "b": "volatile",
+          "c": "enum",
+          "d": "final"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Z typami wyliczeniowymi związane jest istotne ograniczenie, jakie?",
+        "options": {
+          "a": "W przypadku klasy typów wyliczeniowych nie możemy stosować dziedziczenia.",
+          "b": "W przypadku klasy typów wyliczeniowych nie możemy utworzyć konstruktora.",
+          "c": "W przypadku klasy typów wyliczeniowych nie możemy implementować interfejsów.",
+          "d": "W przypadku klasy typów wyliczeniowych nie możemy utworzyć metod takiej klasy."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Od JDK5 Java udostępnia automatycznie opakowanie i automatyczne wypakowanie. Dzięki temu możemy stosować typy opakowujące, które pozwalają hermetyzować wartości typów prostych za pomocą obiektów. Do typów opakowujących należą klasy:",
+        "options": {
+          "a": "Enum, Double, Long, Integer, Short, Byte, Character, Boolean",
+          "b": "String, Double, Float, Long, Integer, Short, Character, Boolean",
+          "c": "Void, Double, Float, Long, Integer, Short, Byte, Character",
+          "d": "Double, Float, Long, Integer, Short, Byte, Character, Boolean"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Import wszystkich składowych statycznych np.: z klasy Math możemy uzyskać stosując instrukcję…?",
+        "options": {
+          "a": "import java.lang.Math.;",
+          "b": "import static java.lang.Math.:;",
+          "c": "import static java.lang.Math.;",
+          "d": "import static java.lang.Math.!;"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Wybierz prawdziwe zdanie dotyczące adnotacji:",
+        "options": {
+          "a": "Adnotacje można stosować tylko w odniesieniu do metod.",
+          "b": "Adnotacje można stosować tylko w odniesieniu do metod i klas.",
+          "c": "Adnotacje można stosować tylko w odniesieniu do metod, klas i zmiennych lokalnych.",
+          "d": "Adnotacje można stosować przy bardzo wielu rodzajach deklaracji, m.in.: metod, klas, zmiennych lokalnych, atrybutów klas, konstruktorów, do oznaczenia typów adnotacji itd."
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Adnotacja @Override informuje nas, że:",
+        "options": {
+          "a": "Metoda musi przesłaniać metodę z klasy bazowej.",
+          "b": "Dany element został uznany za przestarzały i jego stosowanie nie jest zalecane.",
+          "c": "Mamy do czynienia z adnotacją która wyłącza ostrzeżenia kompilatora.",
+          "d": "Z listą parametrów o zmiennej długości nie są związane żadne niebezpieczne akcje."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Adnotacja @Deprecated informuje nas, że:",
+        "options": {
+          "a": "Metoda musi przesłaniać metodę z klasy bazowej.",
+          "b": "Dany element został uznany za przestarzały i jego stosowanie nie jest zalecane.",
+          "c": "Mamy do czynienia z adnotacją która wyłącza ostrzeżenia kompilatora.",
+          "d": "Z listą parametrów o zmiennej długości nie są związane żadne niebezpieczne akcje."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Typy sparametryzowane są istotnym elementem języka Java, ponieważ pozwalają na tworzenie kodu, który:",
+        "options": {
+          "a": "Jest bezpieczny z punktu widzenia zgodności typów.",
+          "b": "Może być wykorzystywany wielokrotnie, niezależnie od typu danych.",
+          "c": "Jest niezawodny.",
+          "d": "Wszystkie odpowiedzi powyżej."
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Który z poniższych przykładów mówi że klasa jest sparametryzowana?",
+        "options": {
+          "a": "class Gen(T)",
+          "b": "class Gen[T]",
+          "c": "class Gen<T>",
+          "d": "class Gen”T”"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "W celu umożliwienia dopasowania typu dowolnego należy użyć znaku, jakiego?",
+        "options": {
+          "a": "!",
+          "b": "?",
+          "c": "…",
+          "d": "&"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Potoczna nazwa typów sparametryzowanych to?",
+        "options": {
+          "a": "enumy",
+          "b": "generics",
+          "c": "characters",
+          "d": "interfejsy"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Czy można ograniczyć typ argumentu wieloznacznego?",
+        "options": {
+          "a": "Nie.",
+          "b": "Tak, można określić górne lub dolne ograniczenie.",
+          "c": "Tak, można przekazać listę dozwolonych argumentów.",
+          "d": "Tak, ale tylko do maksymalnie dwóch elementów."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Który z poniższych opisów pasuje do kolekcji ArrayList?",
+        "options": {
+          "a": "Uporządkowana lista pozwalająca na szybkie wstawianie i usuwanie elementów w dowolnej lokalizacji.",
+          "b": "Uporządkowany zbiór.",
+          "c": "Indeksowana lista o dynamicznie zmieniających się rozmiarach.",
+          "d": "Struktura danych przechowująca pary klucz – wartość."
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Który z poniższych opisów pasuje do kolekcji LinkedList?",
+        "options": {
+          "a": "Uporządkowana lista pozwalająca na szybkie wstawianie i usuwanie elementów w dowolnej lokalizacji.",
+          "b": "Uporządkowany zbiór.",
+          "c": "Indeksowana lista o dynamicznie zmieniających się rozmiarach.",
+          "d": "Struktura danych przechowująca pary klucz – wartość."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Który z poniższych opisów pasuje do kolekcji HashMap?",
+        "options": {
+          "a": "Uporządkowana lista pozwalająca na szybkie wstawianie i usuwanie elementów w dowolnej lokalizacji.",
+          "b": "Uporządkowany zbiór.",
+          "c": "Indeksowana lista o dynamicznie zmieniających się rozmiarach.",
+          "d": "Struktura danych przechowująca pary klucz – wartość."
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Który z poniższych opisów pasuje do kolekcji TreeSet?",
+        "options": {
+          "a": "Uporządkowana lista pozwalająca na szybkie wstawianie i usuwanie elementów w dowolnej lokalizacji.",
+          "b": "Uporządkowany zbiór.",
+          "c": "Indeksowana lista o dynamicznie zmieniających się rozmiarach.",
+          "d": "Struktura danych przechowująca pary klucz – wartość."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Od JDK8 do Javy wprowadzono wyrażenia lambda, żeby z nich skorzystać musimy użyć operatora lambda, czyli jakiego?",
+        "options": {
+          "a": "!",
+          "b": "…",
+          "c": "?",
+          "d": "->"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "SAM (single abstract method) odnosi się do:",
+        "options": {
+          "a": "Klasy abstrakcyjnej.",
+          "b": "Typu wyliczeniowego.",
+          "c": "Interfejsu funkcyjnego.",
+          "d": "Klasy abstrakcyjnej z jedną metodą."
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "W którym pakiecie można odnaleźć interfejsy funkcyjne zdefiniowane w kontekście używania ich w lambda wyrażeniach?",
+        "options": {
+          "a": "java.util.Random",
+          "b": "java.util.Stack",
+          "c": "java.util.ArrayList",
+          "d": "java.util.function"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Wprowadzenie wyrażeń lambda było wstępem do programowania funkcyjnego w Javie, jego rozwinięciem było wprowadzenie strumieni (stream()), które należy rozumieć jako:",
+        "options": {
+          "a": "Strumienie do przeprowadzania operacji wejścia - wyjścia (java.io).",
+          "b": "Strumienie odpowiedzialne za przetwarzanie danych bez ich modyfikowania.",
+          "c": "Strumienie związane z komunikacją w ramach sieci Internet.",
+          "d": "Strumienie plikowe."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Z JDK 8 do Javy zostały wprowadzone wyrażenia lambda, żeby ich używać wykorzystujemy który operator?",
+        "options": {
+          "a": "!",
+          "b": "…",
+          "c": "?",
+          "d": "->"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Wyrażenia lambda możemy podzielić na kilka kategorii, te opisane jako Funkcyjne mogą być opisane jako:",
+        "options": {
+          "a": "Akceptujące jeden parametr, zwracają wynik dowolnego typu.",
+          "b": "Akceptujące dwa parametry tego samego typu, zwracają wynik tego samego typu.",
+          "c": "Akceptujące jeden parametr, nie zwracają nic.",
+          "d": "Żadna odpowiedź z powyższych."
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Wyrażenia lambda możemy podzielić na kilka kategorii, te opisane jako Predykcyjne mogą być opisane jako:",
+        "options": {
+          "a": "Akceptujące jeden parametr, zwracają wynik dowolnego typu.",
+          "b": "Akceptujące dwa parametry tego samego typu, zwracają wynik tego samego typu.",
+          "c": "Akceptujące jeden parametr, nie zwracają nic.",
+          "d": "Akceptujące jeden parametr, zwracają wynik typu boolean."
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Wyrażenia lambda możemy podzielić na kilka kategorii, te opisane jako Operacje Binarne mogą być opisane jako:",
+        "options": {
+          "a": "Akceptujące jeden parametr, zwracają wynik dowolnego typu.",
+          "b": "Akceptujące dwa parametry tego samego typu, zwracają wynik tego samego typu.",
+          "c": "Akceptujące jeden parametr, nie zwracają nic.",
+          "d": "Akceptujące jeden parametr, zwracają wynik typu boolean."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Wyrażenia lambda możemy podzielić na kilka kategorii, te opisane jako Konsument mogą być opisane jako:",
+        "options": {
+          "a": "Akceptujące jeden parametr, zwracają wynik dowolnego typu.",
+          "b": "Akceptujące dwa parametry tego samego typu, zwracają wynik tego samego typu.",
+          "c": "Akceptujące jeden parametr, nie zwracają nic.",
+          "d": "Akceptujące jeden parametr, zwracają wynik typu boolean."
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Domyślny port na którym uruchamia się Spring Boot to:",
+        "options": {
+          "a": "8080",
+          "b": "9090",
+          "c": "localhost",
+          "d": "3306"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Klasa w Springu udostępniająca interfejs REST powinna mieć adnotację:",
+        "options": {
+          "a": "@Service",
+          "b": "@RestController",
+          "c": "@Controller",
+          "d": "@Repository"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Najlepszą praktyką wstrzykiwania w zależności w ramach frameworka Spring jest wstrzykiwanie przez:",
+        "options": {
+          "a": "konstruktor",
+          "b": "pole",
+          "c": "metodę",
+          "d": "klasę"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Czym jest „Bean” w Springu?",
+        "options": {
+          "a": "klasą napisaną w Javie.",
+          "b": "obiektem zarządzanym przez kontekst Springa.",
+          "c": "instancją klasy.",
+          "d": "mechanizmem Springa na potrzeby wstrzykiwania zależności."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Domyślny format danych zwracanych przez WWW w ramach Spring to:",
+        "options": {
+          "a": "JSON",
+          "b": "Text",
+          "c": "XML",
+          "d": "NULL"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Metoda HTTP odpowiedzialna za aktualizowanie stanu zasobu to:",
+        "options": {
+          "a": "PUT",
+          "b": "POST",
+          "c": "GET",
+          "d": "UPDATE"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Metoda HTTP odpowiedzialna za tworzenie zasobu to:",
+        "options": {
+          "a": "OPTION",
+          "b": "POST",
+          "c": "GET",
+          "d": "UPDATE"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Jaki jest domyślny plik wynikowy aplikacji napisanej w Spring Boot?",
+        "options": {
+          "a": "war",
+          "b": "ear",
+          "c": "exe",
+          "d": "jar"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Hibernate to:",
+        "options": {
+          "a": "klaster.",
+          "b": "specyfikacja określająca sposób dostępu do danych.",
+          "c": "framework odpowiedzialny za wdrażanie warstwy dostępu do danych.",
+          "d": "zbiór interfejsów zawierających standardy mapowania obiektowo-relacyjnego."
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Jak działa strategia generowania kluczy GenerationType.SEQUENCE?",
+        "options": {
+          "a": "inkrementuje id o 1.",
+          "b": "inkrementuje id zgodnie ze wskazaną sekwencją.",
+          "c": "nie inkrementuje id.",
+          "d": "wybiera losowo strategię generowania id."
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Która z poniższych adnotacji jest zgodna z AOP (Aspect Oriented Programming)?",
+        "options": {
+          "a": "@Import",
+          "b": "@Qualifier",
+          "c": "@Configuration",
+          "d": "@Before"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Które z poniższych narzędzi jest używane do zarządzania zależnościami w ramach Spring Boot?",
+        "options": {
+          "a": "Maven",
+          "b": "JUnit",
+          "c": "Mockito",
+          "d": "JMeter"
+        },
+        "correct_answer": "a"
+      },
+      {
+        "question": "Co oznacza skrót MVC?",
+        "options": {
+          "a": "Multi Variable Control",
+          "b": "Multi Variable Compiler",
+          "c": "Model View Compiler",
+          "d": "Model View Controller"
+        },
+        "correct_answer": "d"
+      },
+      {
+        "question": "Która z poniższych metod HTTP nie jest idempotentna?",
+        "options": {
+          "a": "GET",
+          "b": "PUT",
+          "c": "POST",
+          "d": "DELETE"
+        },
+        "correct_answer": "c"
+      },
+      {
+        "question": "Która z poniższych adnotacji umożliwia automatyczną konfigurację Spring Boot?",
+        "options": {
+          "a": "@Configuration",
+          "b": "@EnableAutoConfiguration",
+          "c": "@AutoConfiguration",
+          "d": "@SpringConfiguration"
+        },
+        "correct_answer": "b"
+      },
+      {
+        "question": "Której z poniższych adnotacji można użyć do wstrzyknięcia wartości właściwości w Spring Beans oraz do klas konfiguracyjnych?",
+        "options": {
+          "a": "@Primary",
+          "b": "@Value",
+          "c": "@Import",
+          "d": "@PropertyValue"
+        },
+        "correct_answer": "b"
+      }
+    ]
+  }

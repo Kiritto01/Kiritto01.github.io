@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Ciemne tło */
+    color: #ffffff; /* Jasny tekst */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #1e1e1e; /* Ciemniejszy kontener */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    color: #ffcc00; /* Kolor nagłówka */
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.options {
+    list-style-type: none;
+    padding: 0;
+}
+
+.options li {
+    margin: 10px 0;
+}
+
+.options label {
+    display: block;
+    background-color: #2a2a2a; /* Tło dla opcji */
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: relative; /* Umożliwia pozycjonowanie pseudo-elementów */
+}
+
+
+
+/* Zmiana koloru tła i tekstu dla zaznaczonej opcji */
+.options input[type="radio"]:checked + label {
+    background-color: #007bff; /* Kolor tła dla zaznaczonej opcji (niebieski) */
+    color: #ffffff; /* Kolor tekstu dla zaznaczonej opcji (biały) */
+}
+
+.options input[type="radio"]:checked + label::after {
+    content: ''; /* Dodaj pseudo-element */
+    position: absolute;
+    top: 50%;
+    left: 10px; /* Odstęp od lewej */
+    transform: translateY(-50%);
+    width: 10px; /* Szerokość kropki */
+    height: 10px; /* Wysokość kropki */
+    border-radius: 50%; /* Okrągły kształt */
+    background-color: #28a745; /* Kolor kropki */
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745; /* Zielony przycisk */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #218838; /* Ciemniejszy zielony przycisk */
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-align: center;
+}
