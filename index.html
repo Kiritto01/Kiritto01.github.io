@@ -1,19 +1,197 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Quiz Java</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz - Losowe pytania</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #ffffff;
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    #quiz-container {
+      background-color: #1e1e1e;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+      max-width: 600px;
+      width: 100%;
+    }
+
+    .question {
+      margin-bottom: 20px;
+    }
+
+    #question-text {
+      font-size: 1.2rem;
+      margin-bottom: 20px;
+    }
+
+    .options label {
+      display: block;
+      margin-bottom: 15px;
+      font-size: 1rem;
+    }
+
+    .options input[type="radio"] {
+      margin-right: 10px;
+      accent-color: #6200ea;
+    }
+
+    #submit-button {
+      display: inline-block;
+      background-color: #6200ea;
+      color: #ffffff;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    #submit-button:hover {
+      background-color: #3700b3;
+    }
+
+    #submit-button:active {
+      transform: scale(0.98);
+    }
+
+    .result {
+      margin-top: 20px;
+      font-size: 1.1rem;
+      text-align: center;
+    }
+
+    .result.correct {
+      color: #03dac5;
+    }
+
+    .result.incorrect {
+      color: #cf6679;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 1.5rem;
+      color: #03dac5;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Quiz Java</h1>
-        <div id="quiz"></div>
-        <button id="next">Następne pytanie</button>
-        <div id="result"></div>
+  <div id="quiz-container">
+    <div class="question">
+      <p id="question-text"></p>
+      <div class="options" id="options-container"></div>
     </div>
+    <button id="submit-button">Sprawdź odpowiedź</button>
+    <div class="result" id="result"></div>
+  </div>
 
-    <script src="script.js"></script>
+  <script>
+    const jsonFilePath = 'questions.json';
+    let questions = [];
+    let currentQuestion = null;
+
+    // Funkcja losująca pytanie
+    function getRandomQuestion() {
+      if (questions.length === 0) {
+        return null;
+      }
+      const randomIndex = Math.floor(Math.random() * questions.length);
+      return questions.splice(randomIndex, 1)[0];
+    }
+
+    // Funkcja ładująca pytanie
+    function loadQuestion(question) {
+      const questionText = document.getElementById('question-text');
+      const optionsContainer = document.getElementById('options-container');
+      const resultContainer = document.getElementById('result');
+      const submitButton = document.getElementById('submit-button');
+
+      // Wyczyść poprzednie dane
+      optionsContainer.innerHTML = '';
+      resultContainer.textContent = '';
+      resultContainer.className = '';
+
+      // Wyświetl pytanie
+      questionText.textContent = question.question;
+
+      // Wyświetl opcje odpowiedzi
+      for (const [key, value] of Object.entries(question.options)) {
+        const optionElement = document.createElement('label');
+        optionElement.innerHTML = `
+          <input type="radio" name="option" value="${key}">
+          ${value}
+        `;
+        optionsContainer.appendChild(optionElement);
+      }
+
+      // Obsługa kliknięcia przycisku "Sprawdź odpowiedź"
+      submitButton.onclick = () => {
+        const selectedOption = document.querySelector('input[name="option"]:checked');
+
+        if (!selectedOption) {
+          resultContainer.textContent = "Wybierz odpowiedź!";
+          resultContainer.className = "result incorrect";
+          return;
+        }
+
+        if (selectedOption.value === question.correct_answer) {
+          resultContainer.textContent = "Poprawna odpowiedź!";
+          resultContainer.className = "result correct";
+
+          // Załaduj następne pytanie po chwili
+          setTimeout(() => {
+            currentQuestion = getRandomQuestion();
+            if (currentQuestion) {
+              loadQuestion(currentQuestion);
+            } else {
+              // Brak więcej pytań
+              document.getElementById('quiz-container').innerHTML = "<h2>Gratulacje! Ukończyłeś quiz.</h2>";
+            }
+          }, 1000);
+        } else {
+          resultContainer.textContent = "Niepoprawna odpowiedź. Spróbuj ponownie.";
+          resultContainer.className = "result incorrect";
+        }
+      };
+    }
+
+    // Pobranie pytań z pliku JSON
+    fetch(jsonFilePath)
+      .then(response => {
+        if (!response.ok) {
+          throw new Error('Nie udało się załadować pliku JSON');
+        }
+        return response.json();
+      })
+      .then(data => {
+        // Załaduj pytania do listy
+        questions = data.questions;
+
+        // Wylosuj pierwsze pytanie i rozpocznij quiz
+        currentQuestion = getRandomQuestion();
+        if (currentQuestion) {
+          loadQuestion(currentQuestion);
+        } else {
+          document.getElementById('quiz-container').innerHTML = "<h2>Brak pytań w quizie!</h2>";
+        }
+      })
+      .catch(error => {
+        console.error('Błąd:', error);
+        document.getElementById('quiz-container').innerHTML = "<h2>Błąd wczytywania quizu. Spróbuj ponownie później.</h2>";
+      });
+  </script>
 </body>
 </html>
